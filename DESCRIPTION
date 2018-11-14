@@ -1,0 +1,19 @@
+Package: avocado
+Type: Package
+Title: Avocado Prices
+Version: 0.1.0
+Author: person("Siqi", email = "anantjjz@gmail.com")
+Maintainer: The package maintainer <anantjjz@gmail.com>
+Description: Historical data on avocado prices and sales volume 
+	in multiple US markets
+Depends:
+    R (>= 2.10)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
